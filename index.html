@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<style>
+    * *:before *:after {
+        box-sizing: border-box;
+    }
+
+    body {
+        height: 100vh;
+        overflow-y: hidden;
+        font-family: Arial, Helvetica, sans-serif;
+        color: #222;
+    }
+
+    div {
+        position: relative;
+        height: 100%;
+        width: 100%;
+    }
+
+    div img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        margin: auto;
+        z-index: 10;
+    }
+
+    .header {
+        display: inline-block;
+        position: absolute;
+        z-index: 10;
+    }
+
+    #blog {
+        margin: 30px 0 0 85vw;
+    }
+
+    .header li {
+        margin: 20px 0 0 0;
+    }
+
+    h1 {
+        position: absolute;
+        left: 5vw;
+        color: #222;
+        font-weight: bold;
+        font-size: 40px;
+    }
+
+    ul li {
+        list-style: none;
+        display: inline-block;
+    }
+
+    ul li a {
+        text-decoration: none;
+        z-index: 10;
+        color: #222;
+    }
+</style>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hammer Time</title>
+</head>
+
+<div class="header">
+    <h1>Hammer Time</h1>
+    <ul>
+        <li id="blog"><a href="https://www.ronald-luo.com/100-websites/">BLOG</a></li>
+    </ul>
+</div>
+
+<body>
+    <div>
+        <img src="https://lh3.googleusercontent.com/proxy/ZXBdOUTlD38QXeseUFdw618PTTm1WVHTdSOOHNNg1jCi4U13X76d-UNYpBSGcb-VTgDQ-JZVoaCKwQAvfNuNrOsVNxbhUmGGF33DYyk4-vSu0Nrey4Fp7E5yrNLw"
+            title="not a hammer">
+    </div>
+
+</body>
+
+</html>
